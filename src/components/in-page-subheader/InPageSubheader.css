@@ -1,0 +1,9 @@
+.InPageSubheader {
+  display: flex;
+  align-items: baseline;
+  padding: 8px 0;
+}
+
+.InPageSubheader-title {
+  flex: 1;
+}

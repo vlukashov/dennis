@@ -16,16 +16,6 @@
   padding: 20px 0px 15px 50px;
 }
 
-.Home-subheader {
-  display: flex;
-  align-items: baseline;
-  padding: 8px 0;
-}
-
-.Home-subheader-title {
-  flex: 1;
-}
-
 .Home-cta-panel {
   display: flex;
 }
