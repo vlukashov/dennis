@@ -1,50 +1,50 @@
 .Home {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .Home-content {
-    flex: 1;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    overflow: auto;
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: auto;
 }
 
 .Home-chat-replies {
-    padding: 20px 0px 15px 50px;
+  padding: 20px 0px 15px 50px;
 }
 
 .Home-subheader {
-    display: flex;
-    align-items: baseline;
-    padding: 8px 0;
+  display: flex;
+  align-items: baseline;
+  padding: 8px 0;
 }
 
 .Home-subheader-title {
-    flex: 1;
+  flex: 1;
 }
 
 .Home-cta-panel {
-    display: flex;
+  display: flex;
 }
 
 .Home-cta-panel img {
-    width: 100px;
-    height: 100px;
-    margin-left: -10px;
+  width: 100px;
+  height: 100px;
+  margin-left: -10px;
 }
 
 .Home-cta-panel-body {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .Home-cta-panel-body h3 {
-    font-size: 19px;
-    margin-bottom: 0;
+  font-size: 19px;
+  margin-bottom: 0;
 }
 
 .Home-cta-panel-body span {
-    font-size: small;
+  font-size: small;
 }

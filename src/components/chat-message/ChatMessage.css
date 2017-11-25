@@ -1,13 +1,13 @@
 .ChatMessage {
-    display: flex;
+  display: flex;
 }
 
 .ChatMessage-avatar {
-    padding-right: 15px;
-    margin-left: -5px;
+  padding-right: 15px;
+  margin-left: -5px;
 }
 
 .ChatMessage-avatar img {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }

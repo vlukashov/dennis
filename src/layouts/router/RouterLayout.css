@@ -1,18 +1,17 @@
 .RouterLayout {
-    text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
-    height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
 }
 
 .RouterLayout-nav {
-    background-color: white;
-    color: #B4E3EC;
+  background-color: white;
+  color: #b4e3ec;
 }
 
 .RouterLayout-content {
-    flex: 1;
-    background-color: #F5F8F9;
-    overflow: auto;
+  flex: 1;
+  background-color: #f5f8f9;
+  overflow: auto;
 }
-  
