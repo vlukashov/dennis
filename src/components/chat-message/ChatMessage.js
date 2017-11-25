@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
+import { Image, Panel } from 'react-bootstrap';
 import './ChatMessage.css';
 
 import dennisIcon from '../../assets/dennis-logo.svg';
@@ -11,9 +11,9 @@ class ChatMessage extends Component {
             <div className="ChatMessage-avatar">
                 <Image src={dennisIcon} />
             </div>
-            <div className="ChatMessage-message">
+            <Panel>
                 {this.props.children}
-            </div>
+            </Panel>
         </div>
       );
     }

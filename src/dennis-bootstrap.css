@@ -9,3 +9,17 @@
   text-shadow: none;
   margin-right: 15px;
 }
+
+.panel.panel-default {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, .03);
+  
+  font-weight: 300;
+  background: white;
+  margin: 0;
+}
+
+.panel.panel-default > .panel-body {
+  padding: 20px;
+}
