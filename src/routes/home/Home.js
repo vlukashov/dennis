@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 import './Home.css';
 
 import Header from '../../components/header/Header';
+import ChatMessage from '../../components/chat-message/ChatMessage';
 
 class Home extends Component {
     render() {
       return (
         <div>
           <Header title="Home" />
-          <p className="Home-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
+          <ChatMessage>
+            Welcome Tim! It’s time to start your journey on making your teeth shine like you were a Hollywood star!
+          </ChatMessage>
         </div>
       );
     }

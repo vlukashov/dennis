@@ -1,0 +1,25 @@
+.ChatMessage {
+    display: flex;
+    padding: 10px;
+    padding-right: 25px;
+}
+
+.ChatMessage-avatar {
+    padding: 10px;
+    padding-right: 15px;
+}
+
+.ChatMessage-avatar img {
+    height: 50px;
+    width: 50px;
+}
+
+.ChatMessage-message {
+    border-radius: 6px;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, .03);
+    
+    padding: 20px;
+    text-align: left;
+    font-weight: 300;
+    background: white;
+}
