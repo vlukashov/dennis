@@ -13,5 +13,6 @@
 .RouterLayout-content {
     flex: 1;
     background-color: #F5F8F9;
+    overflow: auto;
 }
   

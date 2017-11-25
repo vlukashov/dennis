@@ -10,10 +10,11 @@ import ChatMessage from '../../components/chat-message/ChatMessage';
 class Home extends Component {
   render() {
     const SubSection = (props) => {
+      const link = props.to ? <Link to={props.to}>{props.subtitle}</Link> : null;
       return (
         <div className="Home-subheader">
           <h3 className="Home-subheader-title">{props.title}</h3>
-          <Link to={props.to}>{props.subtitle}</Link>
+          {link}
         </div>
       );
     };
@@ -29,6 +30,7 @@ class Home extends Component {
             <Button>How do we do that?</Button>
             <Button>Who are you?</Button>
           </div>
+
           <SubSection title="Your history" subtitle="See me history >" to="/my-history" />
           <Panel>
             <div className="Home-cta-panel">
@@ -41,8 +43,15 @@ class Home extends Component {
                 </h3>
               </div>
             </div>
-            
           </Panel>
+
+          <SubSection title="Recommended Products" />
+          <ChatMessage>
+            Here are some products that we recommend you to use to make sure your dental health is OK.
+          </ChatMessage>
+          <div className="Home-chat-replies">
+            <Button>How should I care?</Button>
+          </div>
         </div>
       </div>
     );
