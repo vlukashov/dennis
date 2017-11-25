@@ -5,3 +5,13 @@
 .Home-chat-replies {
     padding: 15px 25px 15px 85px;
 }
+
+.Home-subheader {
+    display: flex;
+    align-items: baseline;
+    padding: 0 25px 0 15px;
+}
+
+.Home-subheader-title {
+    flex: 1;
+}
