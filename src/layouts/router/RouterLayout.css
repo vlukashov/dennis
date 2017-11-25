@@ -1,0 +1,17 @@
+.RouterLayout {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+
+.RouterLayout-nav {
+    background-color: white;
+    color: #B4E3EC;
+}
+
+.RouterLayout-content {
+    flex: 1;
+    background-color: #F5F8F9;
+}
+  

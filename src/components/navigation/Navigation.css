@@ -1,0 +1,35 @@
+.Navigation-logo {
+    animation: Navigation-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+@keyframes Navigation-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.Navigation-title {
+    font-size: 1.5em;
+}
+
+.Navigation {
+    display: flex;
+    width: 100%;
+
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.05)
+}
+
+.Navigation a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.Navigation-icon {
+    width: 4em;
+    height: 4em;
+}
