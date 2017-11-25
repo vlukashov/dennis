@@ -27,12 +27,12 @@ class Navigation extends Component {
       <nav className="Navigation">
         <NavigationLink exact to="/" icon={logo} label="Home" />
         <NavigationLink to="/my-history" icon={logo} label="My History" />
+        <NavigationLink to="/knowledge" icon={logo} label="Knowledge" />
         <NavigationLink
           to="/book-appointment"
           icon={logo}
           label="Schedule visit"
         />
-        <NavigationLink to="/find-clinic" icon={logo} label="Find Clinic" />
       </nav>
     );
   }

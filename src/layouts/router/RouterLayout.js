@@ -8,7 +8,7 @@ import Navigation from "../../components/navigation/Navigation";
 import Home from "../../routes/home/Home";
 import MyHistory from "../../routes/my-history/MyHistory";
 import BookAppointment from "../../routes/book-appointment/BookAppointment";
-import FindClinic from "../../routes/find-clinic/FindClinic";
+import Knowledge from "../../routes/knowledge/Knowledge";
 
 class RouterLayout extends Component {
   render() {
@@ -22,7 +22,7 @@ class RouterLayout extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/my-history" component={MyHistory} />
           <Route path="/book-appointment" component={BookAppointment} />
-          <Route path="/find-clinic" component={FindClinic} />
+          <Route path="/knowledge" component={Knowledge} />
         </main>
       </div>
     );

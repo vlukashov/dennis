@@ -1,0 +1,38 @@
+.Knowledge-subheader h3 {
+  margin-top: 0;
+}
+
+.KBArticleCard {
+}
+
+.KBArticleCard:not(:first-child) {
+  margin-top: 10px;
+}
+
+.KBArticleCard.panel.panel-default > .panel-body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.KBategoryCard {
+  display: flex;
+  background: white;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.KBategoryCard {
+  margin-bottom: 5px;
+}
+
+.KBategoryCard img {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.KBategoryCard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
