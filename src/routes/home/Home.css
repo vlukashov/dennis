@@ -1,17 +1,42 @@
-.Home {
+.Home-content {
     text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .Home-chat-replies {
-    padding: 15px 25px 15px 85px;
+    padding: 20px 0px 15px 50px;
 }
 
 .Home-subheader {
     display: flex;
     align-items: baseline;
-    padding: 0 25px 0 15px;
+    padding: 8px 0;
 }
 
 .Home-subheader-title {
     flex: 1;
+}
+
+.Home-cta-panel {
+    display: flex;
+}
+
+.Home-cta-panel img {
+    width: 100px;
+    height: 100px;
+    margin-left: -10px;
+}
+
+.Home-cta-panel-body {
+    padding-left: 10px;
+}
+
+.Home-cta-panel-body h3 {
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+.Home-cta-panel-body span {
+    font-size: small;
 }
