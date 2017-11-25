@@ -30,7 +30,7 @@ class Navigation extends Component {
         <NavigationLink
           to="/book-appointment"
           icon={logo}
-          label="Appointment"
+          label="Schedule visit"
         />
         <NavigationLink to="/find-clinic" icon={logo} label="Find Clinic" />
       </nav>

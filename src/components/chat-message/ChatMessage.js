@@ -7,7 +7,7 @@ import dennisIcon from "../../assets/dennis-logo.svg";
 class ChatMessage extends Component {
   render() {
     return (
-      <div className="ChatMessage">
+      <div className={`ChatMessage ${this.props.className}`}>
         <div className="ChatMessage-avatar">
           <Image src={dennisIcon} />
         </div>

@@ -9,7 +9,7 @@ class InPageSubheader extends Component {
       <Link to={this.props.to}>{this.props.subtitle}</Link>
     ) : null;
     return (
-      <div className="InPageSubheader">
+      <div className={`InPageSubheader ${this.props.className}`}>
         <h3 className="InPageSubheader-title">{this.props.title}</h3>
         {link}
       </div>

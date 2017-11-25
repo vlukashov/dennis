@@ -1,1 +1,26 @@
+.ActionPanel-body {
+  display: flex;
+}
 
+.ActionPanel img {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+}
+
+.ActionPanel-content {
+  padding-left: 10px;
+}
+
+.BookAppointment-subheader h3 {
+  margin-top: 0;
+}
+
+.BookAppointment-chatMessage {
+  margin-bottom: 30px;
+}
+
+.BookAppointment-actionPanel.panel.panel-default {
+  margin-top: 10px;
+}
