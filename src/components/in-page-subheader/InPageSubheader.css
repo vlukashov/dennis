@@ -11,14 +11,14 @@
   margin-top: 3.5rem;
 }
 
-.overview-link:after  {
-	content: '';
-	display: inline-block;
-	margin-right: 10px;
-	border: solid #00b4f0;
-	border-width: 0 2px 2px 0;
-	padding: 3px;
-	transform: rotate(-45deg) translateY(-2px);
-	transition: all ease-in .2s;
-	margin-left: 8px;
+.overview-link::after {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  border: solid #00b4f0;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(-45deg) translateY(-2px);
+  transition: all ease-in 0.2s;
+  margin-left: 8px;
 }

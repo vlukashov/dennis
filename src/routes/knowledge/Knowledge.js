@@ -5,7 +5,8 @@ import PageLayout from "../../layouts/page/PageLayout";
 import ChatMessage from "../../components/chat-message/ChatMessage";
 import InPageSubheader from "../../components/in-page-subheader/InPageSubheader";
 
-import actionImage from "../../assets/logo.svg";
+import kbCateogryBrushImage from "../../assets/category-brush-img.jpg";
+import kbCateogryGumsImage from "../../assets/category-gums-img.jpg";
 
 import "./Knowledge.css";
 
@@ -29,7 +30,7 @@ class Knowledge extends Component {
         <div className="KBategoryCard">
           <Image src={props.imgurl} />
           <div className="KBategoryCard-content">
-            <h4>{props.title}</h4>
+            <h4 className="KBategoryCard-title">{props.title}</h4>
             <p>{props.subtitle}</p>
           </div>
         </div>
@@ -58,12 +59,12 @@ class Knowledge extends Component {
 
         <InPageSubheader title="All categories" />
         <KBategoryCard
-          imgurl={actionImage}
+          imgurl={kbCateogryBrushImage}
           title="Brushing Teeth"
           subtitle="Why should you brush your teeth?"
         />
         <KBategoryCard
-          imgurl={actionImage}
+          imgurl={kbCateogryGumsImage}
           title="Gums"
           subtitle="What are gums and why they exist?"
         />
