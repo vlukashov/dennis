@@ -3,8 +3,8 @@ import { NavLink, withRouter } from "react-router-dom";
 
 import "./Navigation.css";
 
-import homeIcon from "../../assets/dennis-logo.svg";
-import homeIconActive from "../../assets/dennis-logo.svg";
+import homeIcon from "../../assets/dennis-icon-default.svg";
+import homeIconActive from "../../assets/dennis-icon-active.svg";
 import knowledgeIcon from "../../assets/knowledge-icon-default.svg";
 import knowledgeIconActive from "../../assets/knowledge-icon-default-active.svg";
 import myHistoryIcon from "../../assets/myhistory-icon-default.svg";
