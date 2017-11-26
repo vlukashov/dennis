@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { Button, Panel, Image } from "react-bootstrap";
 import "./Home.css";
-import bookCtaImage from "../../assets/teeth-history.png";
+import bookCtaImage from "../../assets/calendar-frontpage.png";
 import planmecaE10Image from "../../assets/toothbrush-image.png";
 
 import PageLayout from "../../layouts/page/PageLayout";
@@ -11,16 +11,14 @@ import ChatMessage from "../../components/chat-message/ChatMessage";
 
 class Home extends Component {
   render() {
-    const RecommendedProduct = withRouter(props => {
+    const HomePageCard = withRouter(props => {
       return (
-        <div className="RecommendedProduct">
-          <div className="RecommendedProduct-card">
+        <div className="HomePageCard">
+          <div className="HomePageCard-card">
             <Image src={props.imgurl} />
-            <div className="RecommendedProduct-content">
-              <h4 className="RecommendedProduct-text-primary">{props.name}</h4>
-              <p className="RecommendedProduct-text-secondary">
-                {props.description}
-              </p>
+            <div className="HomePageCard-content">
+              <h4 className="HomePageCard-text-primary">{props.name}</h4>
+              <p className="HomePageCard-text-secondary">{props.description}</p>
             </div>
           </div>
           <Button
@@ -29,8 +27,8 @@ class Home extends Component {
               props.history.push(props.to);
             }}
           >
-            Read more about the product
-            <span className="RecommendedProduct-button-icon">&gt;</span>
+            {props.buttonText}
+            <span className="HomePageCard-button-icon">&gt;</span>
           </Button>
         </div>
       );
@@ -51,21 +49,13 @@ class Home extends Component {
           subtitle="See my history"
           to="/my-history"
         />
-        <Panel>
-          <div className="Home-cta-panel">
-            <Image src={bookCtaImage} />
-            <div className="Home-cta-panel-body">
-              <span>
-                Schedule your first dental appointment to unlock the the history
-                platform
-              </span>
-              <h3>
-                Book an appointment
-                <Link to="/book-appointment">&gt;</Link>
-              </h3>
-            </div>
-          </div>
-        </Panel>
+        <HomePageCard
+          imgurl={bookCtaImage}
+          name="Get your teeth checked!"
+          description="Schedule your first dental appointment to unlock the the history platform"
+          to="/book-appointment"
+          buttonText="Schedule a visit"
+        />
 
         <InPageSubheader title="Recommended Products" />
         <ChatMessage>
@@ -76,11 +66,12 @@ class Home extends Component {
           <Button>How should I care?</Button>
         </div>
 
-        <RecommendedProduct
+        <HomePageCard
           imgurl={planmecaE10Image}
           name="Planmeca Electric Tooth Brush E10"
           description="Get your brushing to the next level with a high quality tooth bruch that connects with real-time data to your Dennis App"
           to="/"
+          buttonText="Read more about the product"
         />
 
         {/* <InPageSubheader

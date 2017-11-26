@@ -23,7 +23,7 @@
 .Home-cta-panel img {
   width: 80px;
   height: 80px;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   margin-left: -10px;
   display: block;
 }
@@ -36,57 +36,56 @@
 .Home-cta-panel-body h3 {
   font-size: 19px;
   margin-bottom: 0;
-  color: #39CD5A;
-  margin-top:8px;
+  color: #39cd5a;
+  margin-top: 8px;
 }
 
 .Home-cta-panel-body h3:after {
-    content: '';
-    display: inline-block;
-    margin-right: 10px;
-    border: solid #39CD5A;
-    border-width: 0 2px 2px 0;
-    padding: 3px;
-    transform: rotate(-45deg) translateY(-2px);
-    transition: all ease-in .2s;
-    margin-left: 8px;
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  border: solid #39cd5a;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(-45deg) translateY(-2px);
+  transition: all ease-in 0.2s;
+  margin-left: 8px;
 }
 
 .Home-cta-panel-body h3 a {
-  display:none;
+  display: none;
 }
 
 .Home-cta-panel-body span {
   font-size: 14px;
-  color: #4E5973;
-
+  color: #4e5973;
 }
 
-.RecommendedProduct {
+.HomePageCard {
   background: white;
   margin-left: -20px;
   margin-right: -20px;
   margin-top: 1rem;
 }
 
-.RecommendedProduct img {
+.HomePageCard img {
   height: 120px;
   display: block;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.RecommendedProduct-card {
+.HomePageCard-card {
   display: flex;
 }
 
-.RecommendedProduct-content {
+.HomePageCard-content {
   padding: 20px;
 }
 
-.RecommendedProduct-text-secondary {
+.HomePageCard-text-secondary {
 }
 
-.RecommendedProduct-button-icon {
+.HomePageCard-button-icon {
   float: right;
 }
