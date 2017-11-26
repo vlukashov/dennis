@@ -29,7 +29,7 @@ class Knowledge extends Component {
         <div className="KBategoryCard">
           <Image src={props.imgurl} />
           <div className="KBategoryCard-content">
-            <h3>{props.title}</h3>
+            <h4>{props.title}</h4>
             <p>{props.subtitle}</p>
           </div>
         </div>

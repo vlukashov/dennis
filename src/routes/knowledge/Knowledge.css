@@ -16,6 +16,23 @@
   font-weight:500;
   color: white;
   text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  font-size: 16px;
+  position:relative;
+}
+
+.KBArticleCard.panel.panel-default > .panel-body:after  {
+  content: '';
+  display: inline-block;
+  margin-right: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(-45deg) translateY(-2px);
+  transition: all ease-in .2s;
+  margin-left: 8px;
+  position:absolute;
+  top:18px;
+  right:10px;
 }
 
 .KBategoryCard {
@@ -27,6 +44,13 @@
 
 .KBategoryCard {
   margin-bottom: 5px;
+}
+
+.KBategoryCard h4 {
+  margin-top: 2.2rem;
+}
+.KBategoryCard p {
+  margin-bottom: 10px;
 }
 
 .KBategoryCard img {
