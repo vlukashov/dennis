@@ -35,7 +35,13 @@
   color: inherit;
 }
 
+.Navigation a.active {
+  color: #56e676;
+}
+
 .Navigation-icon {
-  width: 4em;
-  height: 4em;
+  width: 24px;
+  height: 24px;
+  margin-top: 16px;
+  margin-bottom: 6px;
 }
