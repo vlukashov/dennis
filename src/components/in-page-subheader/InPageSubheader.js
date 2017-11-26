@@ -6,7 +6,7 @@ import "./InPageSubheader.css";
 class InPageSubheader extends Component {
   render() {
     const link = this.props.to ? (
-      <Link to={this.props.to}>{this.props.subtitle}</Link>
+      <Link className="overview-link" to={this.props.to}>{this.props.subtitle}</Link>
     ) : null;
     return (
       <div className={`InPageSubheader ${this.props.className}`}>

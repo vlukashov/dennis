@@ -13,7 +13,7 @@
 }
 
 .Home-chat-replies {
-  padding: 20px 0px 15px 50px;
+  padding: 20px 0px 15px 45px;
 }
 
 .Home-cta-panel {
@@ -21,8 +21,9 @@
 }
 
 .Home-cta-panel img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+  margin-top: .8rem;
   margin-left: -10px;
   display: block;
 }
@@ -35,16 +36,37 @@
 .Home-cta-panel-body h3 {
   font-size: 19px;
   margin-bottom: 0;
+  color: #39CD5A;
+  margin-top:8px;
+}
+
+.Home-cta-panel-body h3:after {
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    border: solid #39CD5A;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    transform: rotate(-45deg) translateY(-2px);
+    transition: all ease-in .2s;
+    margin-left: 8px;
+}
+
+.Home-cta-panel-body h3 a {
+  display:none;
 }
 
 .Home-cta-panel-body span {
-  font-size: small;
+  font-size: 14px;
+  color: #4E5973;
+
 }
 
 .RecommendedProduct {
   background: white;
   margin-left: -20px;
   margin-right: -20px;
+  margin-top: 1rem;
 }
 
 .RecommendedProduct img {
@@ -59,7 +81,7 @@
 }
 
 .RecommendedProduct-content {
-  padding: 0 20px;
+  padding: 20px;
 }
 
 .RecommendedProduct-text-secondary {

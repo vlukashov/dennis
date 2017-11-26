@@ -48,7 +48,7 @@ class Home extends Component {
 
         <InPageSubheader
           title="Your history"
-          subtitle="See my history >"
+          subtitle="See my history"
           to="/my-history"
         />
         <Panel>
@@ -85,7 +85,7 @@ class Home extends Component {
 
         {/* <InPageSubheader
           title="Dental Knowledge"
-          subtitle="Go to Knowledge Base >"
+          subtitle="Go to Knowledge Base"
           to="/knowledge"
         /> */}
       </PageLayout>

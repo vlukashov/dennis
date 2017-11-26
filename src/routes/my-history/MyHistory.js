@@ -50,7 +50,7 @@ class MyHistory extends Component {
           the dentist and we can start mapping out your dental history.
         </ChatMessage>
 
-        <InPageSubheader title="Last Visit" subtitle="See overview >" to="/" />
+        <InPageSubheader title="Last Visit" subtitle="See overview" to="/" />
         <TileSet>
           <TileSquare>
             <Image src={lastVisitImage} />
@@ -69,7 +69,7 @@ class MyHistory extends Component {
 
         <InPageSubheader
           title="Teeth Evolution"
-          subtitle="See overview >"
+          subtitle="See overview"
           to="/"
         />
         <TileSet>
@@ -83,7 +83,7 @@ class MyHistory extends Component {
 
         <InPageSubheader
           title="Tooth Bruching History"
-          subtitle="See overview >"
+          subtitle="See overview"
           to="/"
         />
         <TileSet>
