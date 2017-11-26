@@ -71,4 +71,32 @@
 
 .Visit {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Visit-image-wrap {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.Visit-image {
+  display: block;
+  max-width: 100%;
+}
+
+.Visit-text-primary.danger {
+  color: red;
+}
+
+.Visit-text-primary {
+  margin-top: 2px;
+  color: green;
+}
+
+.Visit-text-secondary {
+  margin-top: 9px;
+  margin-bottom: 0px;
 }

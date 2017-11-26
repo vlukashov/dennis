@@ -5,10 +5,13 @@ import PageLayout from "../../layouts/page/PageLayout";
 import ChatMessage from "../../components/chat-message/ChatMessage";
 import InPageSubheader from "../../components/in-page-subheader/InPageSubheader";
 
-import lastVisitImage from "../../assets/logo.svg";
-import evolutionImage1 from "../../assets/logo.svg";
-import evolutionImage2 from "../../assets/logo.svg";
-import evolutionImage3 from "../../assets/logo.svg";
+import lastVisitImage from "../../assets/last-visit-img.png";
+import evolutionImage1 from "../../assets/evolution-1.png";
+import evolutionImage2 from "../../assets/evolution-2.png";
+import evolutionImage3 from "../../assets/evolution-3.png";
+import brushingImage1 from "../../assets/pressure-high-icon.svg";
+import brushingImage2 from "../../assets/session-time-icon.svg";
+import brushingImage3 from "../../assets/sessions-week-icon.svg";
 import "./MyHistory.css";
 
 class MyHistory extends Component {
@@ -41,6 +44,17 @@ class MyHistory extends Component {
       { imgurl: evolutionImage1, date: "1/28/2017" },
       { imgurl: evolutionImage2, date: "8/12/2017" },
       { imgurl: evolutionImage3, date: "12/21/2017" }
+    ];
+
+    const brushings = [
+      {
+        imgurl: brushingImage1,
+        category: "Pressure",
+        value: "High",
+        className: "danger"
+      },
+      { imgurl: brushingImage2, category: "Avg Session", value: "Good" },
+      { imgurl: brushingImage3, category: "Per week", value: "Good" }
     ];
 
     return (
@@ -82,15 +96,20 @@ class MyHistory extends Component {
         </TileSet>
 
         <InPageSubheader
-          title="Tooth Bruching History"
+          title="Tooth Brushing History"
           subtitle="See overview"
           to="/"
         />
         <TileSet>
-          {visits.map((visit, i) => (
+          {brushings.map((brushing, i) => (
             <Tile key={i} className="Visit">
-              <Image className="Visit-image" src={visit.imgurl} />
-              <p className="Visit-date">{visit.date}</p>
+              <div className={`Visit-image-wrap idx${i}`}>
+                <Image className="Visit-image" src={brushing.imgurl} />
+              </div>
+              <p className="Visit-text-secondary">{brushing.category}</p>
+              <p className={`Visit-text-primary ${brushing.className}`}>
+                {brushing.value}
+              </p>
             </Tile>
           ))}
         </TileSet>
