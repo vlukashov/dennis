@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="20px" viewBox="0 0 5 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>exclamation-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="App-Appointment" transform="translate(-60.000000, -507.000000)" fill="#FAB25F">
+            <g id="exclamation-icon" transform="translate(60.160000, 506.691437)">
+                <circle id="Oval-5" cx="2.02765255" cy="18.0781285" r="1.89414414"></circle>
+                <rect id="Rectangle-8" x="0.526094367" y="0.84048591" width="2.81659898" height="12.3930355" rx="1.40829949"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

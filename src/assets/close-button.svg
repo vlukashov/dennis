@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>close-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="13.8478847" cy="14.5279687" r="13.791402"></circle>
+        <filter x="-76.1%" y="-54.4%" width="252.3%" height="252.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.935663954   0 0 0 0 0.943013918   0 0 0 0 0.951583759  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="App-History" transform="translate(-301.000000, -123.000000)">
+            <g id="close-button" transform="translate(313.000000, 128.000000)">
+                <g id="Oval-6">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#DCEAEC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M13.5500728,13.3256901 L10.2001707,9.86794623 C9.815881,9.47128531 9.18279545,9.46125643 8.78613453,9.84554611 C8.3894736,10.2298358 8.37944473,10.8629213 8.76373441,11.2595823 L12.1356818,14.7400811 L8.77484576,18.1009172 C8.38432147,18.4914415 8.38432147,19.1246064 8.77484576,19.5151307 C9.16537005,19.905655 9.79853503,19.905655 10.1890593,19.5151307 L13.5274925,16.1766976 L16.8469924,19.6030606 C17.2312821,19.9997215 17.8643677,20.0097504 18.2610286,19.6254607 C18.6576895,19.241171 18.6677184,18.6080855 18.2834287,18.2114245 L14.9418835,14.7623066 L18.3721567,11.3320333 C18.762681,10.941509 18.762681,10.308344 18.3721567,9.91781973 C17.9816325,9.52729544 17.3484675,9.52729544 16.9579432,9.91781973 L13.5500728,13.3256901 Z" id="Combined-Shape" fill="#9EC3CA" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

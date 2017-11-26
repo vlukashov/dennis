@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>dennis-chat-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="App-Welcome" transform="translate(-13.000000, -8.000000)">
+            <g id="dennis-chat-icon" transform="translate(12.966298, 8.238506)">
+                <circle id="Oval" fill="#B4E3EC" cx="12.6143204" cy="12.2143998" r="12"></circle>
+                <path d="M17.6080541,8.35226359 C16.7493907,5.56626197 14.3427721,6.29505874 12.6143204,7.72041268 C10.8858688,6.29505874 8.47902311,5.56626197 7.62058678,8.35226359 C6.76215046,11.1382652 8.09033149,14.3129584 9.35380627,16.7754288 C10.617281,19.237445 10.7955071,17.4068256 11.0545591,15.689953 C11.3138382,13.9728533 12.6143204,13.729921 12.6143204,13.729921 C12.6143204,13.729921 13.9148026,13.9728533 14.1740817,15.689953 C14.4331338,17.4068256 14.6113598,19.237445 15.8748346,16.7754288 C17.1383094,14.3129584 18.4664904,11.1382652 17.6080541,8.35226359" id="Fill-1" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

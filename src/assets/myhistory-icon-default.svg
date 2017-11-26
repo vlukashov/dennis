@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>myhistory-icon-default</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bottom-Navigation-Home" transform="translate(-130.000000, -21.000000)" fill="#B4E3EC">
+            <path d="M130.5,22.8098351 C130.5,22.2620773 130.955306,21.818032 131.491803,21.818032 L149.508197,21.818032 C150.055955,21.818032 150.5,22.2733375 150.5,22.8098351 L150.5,40.8262289 C150.5,41.3739866 150.044694,41.818032 149.508197,41.818032 L131.491803,41.818032 C130.944045,41.818032 130.5,41.3627264 130.5,40.8262289 L130.5,22.8098351 Z M133.5,29.818032 L133.5,37.818032 L135.5,37.818032 L135.5,29.818032 L133.5,29.818032 Z M137.5,25.818032 L137.5,37.818032 L139.5,37.818032 L139.5,25.818032 L137.5,25.818032 Z M141.5,31.818032 L141.5,37.818032 L143.5,37.818032 L143.5,31.818032 L141.5,31.818032 Z M145.5,27.818032 L145.5,37.818032 L147.5,37.818032 L147.5,27.818032 L145.5,27.818032 Z" id="myhistory-icon-default"></path>
+        </g>
+    </g>
+</svg>

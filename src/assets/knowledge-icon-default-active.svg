@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>knowledge-icon-default-active</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="85.5665683%" y1="74.1418336%" x2="23.699137%" y2="16.6971581%" id="linearGradient-1">
+            <stop stop-color="#4FE4E2" offset="0%"></stop>
+            <stop stop-color="#96F3A9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bottom-Navigation-Home" transform="translate(-223.000000, -18.000000)" fill="url(#linearGradient-1)">
+            <path d="M234.5,40.738212 C228.424868,40.738212 223.5,35.8133443 223.5,29.738212 C223.5,23.6630798 228.424868,18.738212 234.5,18.738212 C240.575132,18.738212 245.5,23.6630798 245.5,29.738212 C245.5,35.8133443 240.575132,40.738212 234.5,40.738212 Z M233.5,29.7411414 L233.5,35.738212 L235.5,35.738212 L235.5,29.7411414 C235.5,29.1760934 235.052285,28.738212 234.5,28.738212 C233.943865,28.738212 233.5,29.1872388 233.5,29.7411414 Z M233.5,25.738212 C233.5,26.2943472 233.947715,26.738212 234.5,26.738212 C235.056135,26.738212 235.5,26.2904968 235.5,25.738212 C235.5,25.1820769 235.052285,24.738212 234.5,24.738212 C233.943865,24.738212 233.5,25.1859273 233.5,25.738212 Z" id="knowledge-icon-default-active"></path>
+        </g>
+    </g>
+</svg>

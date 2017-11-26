@@ -13,6 +13,10 @@
   margin-right: 15px;
 }
 
+.btn.btn-block {
+  border-radius: 0;
+}
+
 .panel.panel-default {
   border: none;
   border-radius: 6px;
