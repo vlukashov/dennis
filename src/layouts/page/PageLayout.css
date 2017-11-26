@@ -11,4 +11,5 @@
   padding-right: 20px;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
+  padding-bottom:2rem;
 }
